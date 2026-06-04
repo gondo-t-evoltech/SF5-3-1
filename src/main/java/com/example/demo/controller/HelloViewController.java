@@ -15,6 +15,6 @@ public class HelloViewController {
 		modelAndView.addObject("msg", "タイムリーフ!!!");
 		// 画面を設定する
 		modelAndView.setViewName("helloThymeleaf");
-		return "modelAndView";
+		return modelAndView;
 	}
 }
